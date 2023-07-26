@@ -26,7 +26,7 @@ get("/dice/2/6") do
    <p>#{outcome}</p>"
 end
 
-get("/dice/2/10")
+get("/dice/2/10") do
 first_die = rand(1..10)
 second_die = rand(1..10)
 sum = first_die + second_die
